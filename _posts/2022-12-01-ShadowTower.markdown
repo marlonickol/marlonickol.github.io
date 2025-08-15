@@ -42,5 +42,5 @@ Next time I would like to incorporate that earlier in the conception of the leve
 ## Supporting Player Fantasy
 A neat thing at the end, I used a “letter” to hand to people around the university demonstration, introducing and building the player fantasy and the games setting even before they put on the VR headset. It showed nicely how much impact there is already, even outside of the game through marketing or presentation.
 
-![Letter to players]({{site.baseurl}}/assets/img/ShadowTower/FinalFormletter.jpg)
+![Letter to players]({{site.baseurl}}/assets/img/ShadowTower/FInalFormLetter.jpg)
 > Letter used as promo, to sell the player fantasy before they start playing.

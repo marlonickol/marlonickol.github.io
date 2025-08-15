@@ -28,7 +28,7 @@ My process for this was to gather and visualize the information I have, form an 
 
 The two screenshots below show my initial collection of info of what we had available and the other a first rough draft of where various key items are accessible in the progression.
 
-![Liquid Meadows resource overview]({{site.baseurl}}/assets/img/Coreborn/01-LMResourceOverview.png)
+![Liquid Meadows resource overview]({{site.baseurl}}/assets/img/Coreborn/01-LMResourceOverview.PNG)
 > Overview of potential resources for the new area.
 
 ![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/02-InitialOverview.png)
@@ -40,13 +40,13 @@ However, I did most of the design work to build the item crafting in that table.
 
 Unfortunately, we didn’t have enough time until release to properly test and iterate on the item progression. In the end, it now mostly relies on the experience from the early access version of the game without being thoroughly validated in its current form.
 
-![Key item unlocks through the game]({{site.baseurl}}/assets/img/Coreborn/03-ProgressionOverview.png)
+![Key item unlocks through the game]({{site.baseurl}}/assets/img/Coreborn/03-ProgressionOverview.PNG)
 > Finalized overview of key items and unlocks throughout the game.
 
-![Weapon Miro drops and crafting]({{site.baseurl}}/assets/img/Coreborn/04-LM-Items-1.png)
+![Weapon Miro drops and crafting]({{site.baseurl}}/assets/img/Coreborn/04-LM-Items-1.PNG)
 > Miro table for item drops and crafting - weapons.
 
-![Armor Miro drops and crafting]({{site.baseurl}}/assets/img/Coreborn/05-Ambros-Items-1.png)
+![Armor Miro drops and crafting]({{site.baseurl}}/assets/img/Coreborn/05-Ambros-Items-1.PNG)
 > Miro table for item drops and crafting - armor.
 
 Working on this part of the game was great for me, the challenge of owning and handling such a large set of items and being able to bring that into the game. Additionally, there were many other people involved in this, making this a great collaborative effort and practice for effective communication.
@@ -56,7 +56,7 @@ One other big feature that I took ownership of was the survival aspect of Corebo
 
 The first step I took was an initial exploration of where it could go. I collected all of this on a Miro board with initial briefing and information from my supervisor. You can see a screenshot from it below.
 
-![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/06-ShelterMiroSetup.png)
+![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/06-ShelterMiroSetup.PNG)
 > Shelter feature setup on a Miro board.
 
 I used this board to expand on mechanics and potential ideas, exploring first numbers and using it as a basis to write the CDD, getting feedback from my supervisor and other team members. While the Miro was excellent for me to visualize ideas, it did not work at all trying to communicate those to others, it was just too overwhelming. I started to move more things into the then created GDD page and added excel tables to structure some initial balancing ideas. This worked much better and I could still use Miro to prepare initial visualizations.

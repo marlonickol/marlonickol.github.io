@@ -31,7 +31,7 @@ From that point, I built the spirits, making them playable in Tabletop Simulator
 
 Now, to bring a version out to others, the next step is making a commission sheet and find someone who might be willing to provide some artwork for it.
 
-![Spirit Documentation]({{site.baseurl}}/assets/img/SpiritIsland/SpiritDocumentation.png)
+![Spirit Documentation]({{site.baseurl}}/assets/img/SpiritIsland/SpiritDocumentation.PNG)
 > Screenshot from my documentation with results from playtests and marked aspects, that I changed based on the playtest.
 
 ## Reflection
