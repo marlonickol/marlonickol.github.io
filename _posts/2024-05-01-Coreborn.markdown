@@ -1,0 +1,79 @@
+---
+layout: post
+title: Coreborn
+date: 2024-05-01 00:00:00
+description: A multiplayer survival game set in the open world of Ultracore. Build, grow and defend your town.
+img: Coreborn_key_art.jpg # Add image post (optional)
+tags: [UE5, Game Design, Survival, Items] # add tag
+---
+## Context
+For my studies in Creative Media & Game Technology, I did an internship at Blankhans GmbH as a Game Designer, in a design team of 2 to 4 people, in a game team of 20 people. In total, I joined the development of their game Coreborn for seven months until the full release of the game in June 2024. Five as an intern and two as a freelance Game Designer.
+
+Visit their website here: [Coreborn Website][coreborn-website]
+
+You can check out the game on steam: [Coreborn on Steam][coreborn-steam]
+<iframe src="https://store.steampowered.com/widget/1926090/" frameborder="0" width="646" height="190"></iframe>
+
+## Overview
+Two large parts of the game that I worked on, were the expansion of the survival aspect of Coreborn and the integration of a new area into a changed player progression philosophy.
+
+The survival feature previously consisted of cold temperature barriers and health as a general resource. In collaboration with the team and my supervisor, I adjusted and expanded it with further temperature effects towards warm areas, as well as building up and lingering effects of weather that could be mitigated by builder shelters. Additional features like hunger and saturation were planned but never implemented.
+
+The drops and item progression philosophy of the game changed to a much shorter total planned play time of players to reach end tier gear. Here, in collaboration with the team and with the support of the other designers, I suggested, concepted and then built the structure of items in the game. This included drops and drop tiers, the crafting of those materials into higher tiers and resulting gear and consumables for both the existing and the newly added area.
+
+## Item drops and crafting progression
+When I took on the item drops and progression, I was already preparing for the new area: what kind of resources could be reused, which assets are ready and how we can fill the biomes there. Due to some unforeseen circumstances, this all happened only a few weeks before the release, adding to the challenge.
+
+My process for this was to gather and visualize the information I have, form an idea or proposal and then get feedback or approval on the direction. Armed with that, I could build the designs and work in fast iteration cycles, checking in with supervisors and peers on my progress and direction.
+
+The two screenshots below show my initial collection of info of what we had available and the other a first rough draft of where various key items are accessible in the progression.
+
+![Liquid Meadows resource overview]({{site.baseurl}}/assets/img/Coreborn/01-LMResourceOverview.png)
+> Overview of potential resources for the new area.
+
+![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/02-InitialOverview.png)
+> Structure of key items into progression.
+
+Within the design team, we used a Miro board with two key points: a table that gives an overview on the key unlocks and another table to hold all item drops, crafting references and the recipes for the end items. While such a table quickly becomes unwieldy and rigid, for the short time frame and number of things that had to be touched, it was a good solution. It allowed us to keep an overview and be able to change things fast. Long term, a drawn table on Miro is too high maintenance and difficult to read. Additionally, it was also an extra effort to then bring this into a format that could be imported into UE5.
+
+However, I did most of the design work to build the item crafting in that table. To make sure that I don’t miss any resource nodes or end crafting results, like armor, all those were added to the table first. From that point I built up the recipes, guided by two general principles: avoiding items or drops just having a singular or even no use, which was a problem previously and that recipes have two to three ingredients. It also meant that I could enhance flavor for crafting, by having thematic or otherwise interesting ingredients as crafted ingredients that were then used for the advanced items.
+
+Unfortunately, we didn’t have enough time until release to properly test and iterate on the item progression. In the end, it now mostly relies on the experience from the early access version of the game without being thoroughly validated in its current form.
+
+![Key item unlocks through the game]({{site.baseurl}}/assets/img/Coreborn/03-ProgressionOverview.png)
+> Finalized overview of key items and unlocks throughout the game.
+
+![Weapon Miro drops and crafting]({{site.baseurl}}/assets/img/Coreborn/04-LM-Items-1.png)
+> Miro table for item drops and crafting - weapons.
+
+![Armor Miro drops and crafting]({{site.baseurl}}/assets/img/Coreborn/05-Ambros-Items-1.png)
+> Miro table for item drops and crafting - armor.
+
+Working on this part of the game was great for me, the challenge of owning and handling such a large set of items and being able to bring that into the game. Additionally, there were many other people involved in this, making this a great collaborative effort and practice for effective communication.
+
+## Survival Features
+One other big feature that I took ownership of was the survival aspect of Coreborn. I loved working on this, it was supposed to add a lot to the core experience of the game and had already some things set up to work with. Still, there was a lot of freedom and space to explore in which direction this could be taken.
+
+The first step I took was an initial exploration of where it could go. I collected all of this on a Miro board with initial briefing and information from my supervisor. You can see a screenshot from it below.
+
+![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/06-ShelterMiroSetup.png)
+> Shelter feature setup on a Miro board.
+
+I used this board to expand on mechanics and potential ideas, exploring first numbers and using it as a basis to write the CDD, getting feedback from my supervisor and other team members. While the Miro was excellent for me to visualize ideas, it did not work at all trying to communicate those to others, it was just too overwhelming. I started to move more things into the then created GDD page and added excel tables to structure some initial balancing ideas. This worked much better and I could still use Miro to prepare initial visualizations.
+
+![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/07-ShelterExcelSheet.png)
+> Excel table of all buildable objects related to shelter.
+
+Interesting and great learning here for me was the ability to first explore and concept a larger feature, but then breaking it down again and making sure that the core ideas work and create a good player experience. In other words, that the MVP, that we had time to implement, was actually an MVP and could stand on its own.
+
+In this case, it meant that the temperature effects and rain effects worked with the basic shelter feature and some updates to the equipment, without many different buffs or special furniture that provided additional effects. While the feature was initially intended to be the bridge for a more interesting and relevant base (or shelter) building, it also meant that this part of the feature could be minimal while the important part of the survival mechanics – soft area gating through temperature equipment – could make it in.
+
+![Initial item placement overview]({{site.baseurl}}/assets/img/Coreborn/08-BuildUpEffects.png)
+> Excerpt of the GDD page for shelter - player status effects.
+
+## Summary
+All in all, my work on Coreborn was a great experience and opportunity to own features, on the same level as more experienced people on the team, collaborating to expand and improve them within an existing game. While the game was not the success I would have wished for it, I think I took away a lot from working on it and in that team.
+
+
+[coreborn-steam]: https://store.steampowered.com/app/1926090/Coreborn/
+[coreborn-website]: https://blankhans.io/
